@@ -1,1 +1,3 @@
 # Sensor_interfacing
+
+The code (main.cpp) sets up a Wi-Fi connection to a network specified by the SSID and PASSWORD constants. Once connected, the code sends a HTTP POST request every 10 seconds to a server with the IP address specified by HOST_IP and port specified by PORT_STRING. The POST request contains the temperature data collected from a DallasTemperature sensor connected to the board via OneWire.
