@@ -29,7 +29,7 @@ static const char *LINK_TEMP = "http://" HOST_IP ":" PORT_STRING "/temp/" ID;
 /**
  * Variables for sending data
  */
-static bool transmitNow = false;
+//static bool transmitNow = false;
 static HTTPClient http;
 
 /**
